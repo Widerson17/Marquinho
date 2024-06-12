@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
     background(0);
-    Danvids();
+    danvids();
     movimentaBolinha();
     verificaColisaoBorda();
     mostraRaquete(xRaquete, yRaquete);
@@ -43,7 +43,7 @@ function draw() {
     incluiPlacar() 
     marcaPonto();
 }
-function Danvids() {
+function danvids() {
   circle(xBolinha, yBolinha, diametro);
 }
 
